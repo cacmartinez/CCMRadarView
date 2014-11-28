@@ -34,5 +34,5 @@ Carlos Compean, ccompean@icalialabs.com
 
 ## License
 
-ViewWithBorder_ObjectiveC is available under the Apache License, Version 2.0. See the LICENSE file for more info.
+CCMRadarView is available under the Apache License, Version 2.0. See the LICENSE file for more info.
 
