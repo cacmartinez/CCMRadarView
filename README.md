@@ -5,9 +5,11 @@ CCMRadarView is a simple to use view that uses the new IBDesignable and IBInspec
 Here is a sample views of the radar:
 
 Normal Radar
+
 ![CCMRadarView](https://github.com/cacmartinez/CCMRadarView/blob/master/Screenshots/radarInUse.gif)
 
 Reversed Radar
+
 ![CCMRadarReversedView](https://github.com/cacmartinez/CCMRadarView/blob/master/Screenshots/reversedRadarInUse.gif)
 
 ## Usage
