@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CCMRadarView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4Y-FU-wW3" customClass="CCMRadarView" customModule="CCMRadarView" customModuleProvider="target">
+                                <rect key="frame" x="40" y="40" width="520" height="520"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="I4Y-FU-wW3" secondAttribute="height" multiplier="1:1" id="Ocu-Me-lOm"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="iconImage" value="home"/>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="iconSize">
+                                        <size key="value" width="40" height="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="radarColor">
+                                        <color key="value" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="I4Y-FU-wW3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="62" id="5Se-qk-GcR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="I4Y-FU-wW3" secondAttribute="bottom" constant="78" id="9JV-Lh-MtB"/>
+                            <constraint firstItem="I4Y-FU-wW3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="58" id="EiB-PZ-pAg"/>
+                            <constraint firstItem="I4Y-FU-wW3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Ill-6Q-a15"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="I4Y-FU-wW3" secondAttribute="bottom" constant="20" id="LRY-Aa-Gk8"/>
+                            <constraint firstAttribute="width" secondItem="I4Y-FU-wW3" secondAttribute="width" multiplier="8:7" priority="750" id="hat-Hf-8ag"/>
+                            <constraint firstAttribute="centerX" secondItem="I4Y-FU-wW3" secondAttribute="centerX" id="uoz-OF-1e8"/>
+                            <constraint firstAttribute="centerY" secondItem="I4Y-FU-wW3" secondAttribute="centerY" id="w5p-FZ-gwD"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="I4Y-FU-wW3" secondAttribute="trailing" constant="62" id="wxC-mD-nPt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5Se-qk-GcR"/>
+                                <exclude reference="EiB-PZ-pAg"/>
+                                <exclude reference="wxC-mD-nPt"/>
+                                <exclude reference="9JV-Lh-MtB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="radar" destination="I4Y-FU-wW3" id="YOX-er-YjI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home" width="44" height="43"/>
+    </resources>
+</document>

@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77C621031A28E20000568D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C621021A28E20000568D5F /* AppDelegate.swift */; };
+		77C621051A28E20000568D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C621041A28E20000568D5F /* ViewController.swift */; };
+		77C621081A28E20000568D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C621061A28E20000568D5F /* Main.storyboard */; };
+		77C6210A1A28E20000568D5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C621091A28E20000568D5F /* Images.xcassets */; };
+		77C6210D1A28E20100568D5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C6210B1A28E20100568D5F /* LaunchScreen.xib */; };
+		77C621191A28E20100568D5F /* CCMRadarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C621181A28E20100568D5F /* CCMRadarViewTests.swift */; };
+		77C621241A28E30500568D5F /* CCMRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C621231A28E30500568D5F /* CCMRadarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77C621131A28E20100568D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77C620F51A28E20000568D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C620FC1A28E20000568D5F;
+			remoteInfo = CCMRadarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77C620FD1A28E20000568D5F /* CCMRadarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCMRadarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C621011A28E20000568D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C621021A28E20000568D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77C621041A28E20000568D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77C621071A28E20000568D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77C621091A28E20000568D5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77C6210C1A28E20100568D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		77C621121A28E20100568D5F /* CCMRadarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMRadarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C621171A28E20100568D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C621181A28E20100568D5F /* CCMRadarViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCMRadarViewTests.swift; sourceTree = "<group>"; };
+		77C621231A28E30500568D5F /* CCMRadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCMRadarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C620FA1A28E20000568D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C6210F1A28E20100568D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C620F41A28E20000568D5F = {
+			isa = PBXGroup;
+			children = (
+				77C620FF1A28E20000568D5F /* CCMRadarViewSample */,
+				77C621151A28E20100568D5F /* CCMRadarViewTests */,
+				77C620FE1A28E20000568D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C620FE1A28E20000568D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C620FD1A28E20000568D5F /* CCMRadarView.app */,
+				77C621121A28E20100568D5F /* CCMRadarViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C620FF1A28E20000568D5F /* CCMRadarViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				77C621221A28E30500568D5F /* CCMRadarView */,
+				77C621021A28E20000568D5F /* AppDelegate.swift */,
+				77C621041A28E20000568D5F /* ViewController.swift */,
+				77C621061A28E20000568D5F /* Main.storyboard */,
+				77C621091A28E20000568D5F /* Images.xcassets */,
+				77C6210B1A28E20100568D5F /* LaunchScreen.xib */,
+				77C621001A28E20000568D5F /* Supporting Files */,
+			);
+			name = CCMRadarViewSample;
+			path = CCMRadarView;
+			sourceTree = "<group>";
+		};
+		77C621001A28E20000568D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C621011A28E20000568D5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77C621151A28E20100568D5F /* CCMRadarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				77C621181A28E20100568D5F /* CCMRadarViewTests.swift */,
+				77C621161A28E20100568D5F /* Supporting Files */,
+			);
+			path = CCMRadarViewTests;
+			sourceTree = "<group>";
+		};
+		77C621161A28E20100568D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C621171A28E20100568D5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77C621221A28E30500568D5F /* CCMRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				77C621231A28E30500568D5F /* CCMRadarView.swift */,
+			);
+			name = CCMRadarView;
+			path = ../../CCMRadarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C620FC1A28E20000568D5F /* CCMRadarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C6211C1A28E20100568D5F /* Build configuration list for PBXNativeTarget "CCMRadarView" */;
+			buildPhases = (
+				77C620F91A28E20000568D5F /* Sources */,
+				77C620FA1A28E20000568D5F /* Frameworks */,
+				77C620FB1A28E20000568D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCMRadarView;
+			productName = CCMRadarView;
+			productReference = 77C620FD1A28E20000568D5F /* CCMRadarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77C621111A28E20100568D5F /* CCMRadarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C6211F1A28E20100568D5F /* Build configuration list for PBXNativeTarget "CCMRadarViewTests" */;
+			buildPhases = (
+				77C6210E1A28E20100568D5F /* Sources */,
+				77C6210F1A28E20100568D5F /* Frameworks */,
+				77C621101A28E20100568D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77C621141A28E20100568D5F /* PBXTargetDependency */,
+			);
+			name = CCMRadarViewTests;
+			productName = CCMRadarViewTests;
+			productReference = 77C621121A28E20100568D5F /* CCMRadarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C620F51A28E20000568D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Carlos Compean";
+				TargetAttributes = {
+					77C620FC1A28E20000568D5F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					77C621111A28E20100568D5F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 77C620FC1A28E20000568D5F;
+					};
+				};
+			};
+			buildConfigurationList = 77C620F81A28E20000568D5F /* Build configuration list for PBXProject "CCMRadarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77C620F41A28E20000568D5F;
+			productRefGroup = 77C620FE1A28E20000568D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C620FC1A28E20000568D5F /* CCMRadarView */,
+				77C621111A28E20100568D5F /* CCMRadarViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C620FB1A28E20000568D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C621081A28E20000568D5F /* Main.storyboard in Resources */,
+				77C6210D1A28E20100568D5F /* LaunchScreen.xib in Resources */,
+				77C6210A1A28E20000568D5F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C621101A28E20100568D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C620F91A28E20000568D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C621051A28E20000568D5F /* ViewController.swift in Sources */,
+				77C621031A28E20000568D5F /* AppDelegate.swift in Sources */,
+				77C621241A28E30500568D5F /* CCMRadarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C6210E1A28E20100568D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C621191A28E20100568D5F /* CCMRadarViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77C621141A28E20100568D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77C620FC1A28E20000568D5F /* CCMRadarView */;
+			targetProxy = 77C621131A28E20100568D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77C621061A28E20000568D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C621071A28E20000568D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77C6210B1A28E20100568D5F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C6210C1A28E20100568D5F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C6211A1A28E20100568D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77C6211B1A28E20100568D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C6211D1A28E20100568D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCMRadarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CCMRadarView;
+			};
+			name = Debug;
+		};
+		77C6211E1A28E20100568D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCMRadarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CCMRadarView;
+			};
+			name = Release;
+		};
+		77C621201A28E20100568D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CCMRadarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CCMRadarViewTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCMRadarView.app/CCMRadarView";
+			};
+			name = Debug;
+		};
+		77C621211A28E20100568D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CCMRadarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CCMRadarViewTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCMRadarView.app/CCMRadarView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C620F81A28E20000568D5F /* Build configuration list for PBXProject "CCMRadarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C6211A1A28E20100568D5F /* Debug */,
+				77C6211B1A28E20100568D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C6211C1A28E20100568D5F /* Build configuration list for PBXNativeTarget "CCMRadarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C6211D1A28E20100568D5F /* Debug */,
+				77C6211E1A28E20100568D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C6211F1A28E20100568D5F /* Build configuration list for PBXNativeTarget "CCMRadarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C621201A28E20100568D5F /* Debug */,
+				77C621211A28E20100568D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77C620F51A28E20000568D5F /* Project object */;
+}
