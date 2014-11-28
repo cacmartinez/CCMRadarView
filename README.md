@@ -5,16 +5,16 @@ CCMRadarView is a simple to use view that uses the new IBDesignable and IBInspec
 Here is a sample views of the radar:
 
 Normal Radar
-![CCMRadarView](https://github.com/cacmartinez/CCMRadarView/Screenshots/radarInUse.gif)
+![CCMRadarView](https://github.com/cacmartinez/CCMRadarView/blob/master/Screenshots/radarInUse.gif)
 
 Reversed Radar
-![CCMRadarReversedView](https://github.com/cacmartinez/CCMRadarView/Screenshots/reversedRadarInUse.gif)
+![CCMRadarReversedView](https://github.com/cacmartinez/CCMRadarView/blob/master/Screenshots/reversedRadarInUse.gif)
 
 ## Usage
 
 In the storyboard draw a view to your controller and assign it the CCMRadarView class, then customize it as you want in the Attributes inspector.
 
-![CCMRadarViewUsage](https://github.com/cacmartinez/CCMRadarView/Screenshots/howToUse.gif)
+![CCMRadarViewUsage](https://github.com/cacmartinez/CCMRadarView/blob/master/Screenshots/howToUse.gif)
 
 To start and stop animations in the radar, you should call the ‘startAnimation()’ or the ‘stopAnimation()’ methods.
 
