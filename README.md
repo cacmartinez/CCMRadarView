@@ -26,7 +26,7 @@ Xcode version 6.0 or later.
 
 ## Installation
 
-Download or clone the repository, and copy the CCMRadarView.swift file to your proyect.
+Download or clone the repository, and copy the CCMRadarView.swift file to your project.
 
 ## Author
 
