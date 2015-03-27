@@ -3,6 +3,9 @@ CCMRadarView
 
 [![License APACHE](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/cacmartinez/CCMRadarView/blob/master/LICENSE)
 [![Release](https://img.shields.io/github/release/cacmartinez/CCMRadarView.svg)](https://github.com/cacmartinez/CCMRadarView)
+[![Version](https://img.shields.io/cocoapods/v/CCMRadarView.svg?style=flat)](http://cocoadocs.org/docsets/CCMRadarView)
+[![License](https://img.shields.io/cocoapods/l/CCMRadarView.svg?style=flat)](http://cocoadocs.org/docsets/CCMRadarView)
+[![Platform](https://img.shields.io/cocoapods/p/CCMRadarView.svg?style=flat)](http://cocoadocs.org/docsets/CCMRadarView)
 
 CCMRadarView is a simple to use view that uses the new IBDesignable and IBInspectable features of XCode6 to easily configure the icon in the center, the width of the waves of the radar, as well as the color, the number of waves,etc.
 
