@@ -38,7 +38,7 @@ Download or clone the repository, and copy the `CCMRadarView.swift` file to your
 
 ## With CocoaPods
 
-*Requires CocoaPods v0.36.0*
+**Requires CocoaPods v0.36.0**
 
 CCMPopup is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add `use_frameworks!` line in your Podfile and the following line:
