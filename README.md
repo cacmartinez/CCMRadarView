@@ -18,7 +18,7 @@ Reversed Radar
 
 ==============
 
-## Usage
+# Usage
 
 In the storyboard draw a view to your controller and assign it the CCMRadarView class, then customize it as you want in the Attributes inspector.
 
@@ -26,13 +26,26 @@ In the storyboard draw a view to your controller and assign it the CCMRadarView 
 
 To start and stop animations in the radar, you should call the `startAnimation()` or the `stopAnimation()` methods.
 
-## Requirements
+# Requirements
 
 Xcode version 6.0 or later.
 
-## Installation
+# Installation
+
+## Files
 
 Download or clone the repository, and copy the `CCMRadarView.swift` file to your project.
+
+## With CocoaPods
+
+*Requires CocoaPods v0.36.0*
+
+CCMPopup is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add `use_frameworks!` line in your Podfile and the following line:
+
+    pod "CCMRadarView"
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
