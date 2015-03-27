@@ -33,6 +33,8 @@ To start and stop animations in the radar, you should call the `startAnimation()
 
 Xcode version 6.0 or later.
 
+iOS version 7.0 or later (8.0 or later for use with Cocoapods)
+
 # Installation
 
 ## Files
@@ -41,7 +43,7 @@ Download or clone the repository, and copy the `CCMRadarView.swift` file to your
 
 ## With CocoaPods
 
-**Requires CocoaPods v0.36.0**
+**Requires CocoaPods v0.36.0 and iOS v8.0 or later**
 
 CCMPopup is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add `use_frameworks!` line in your Podfile and the following line:
