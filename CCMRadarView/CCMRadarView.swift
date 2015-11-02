@@ -97,7 +97,7 @@ import UIKit
         
         if flag{
             if let sublayers = layer.sublayers {
-                for index in sublayers {
+                for index in 0..<sublayers.count {
                     if(index == sublayers.count - 1 && animating){
                         startAnimation()
                     } else {
