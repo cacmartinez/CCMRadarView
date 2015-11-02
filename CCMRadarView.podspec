@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCMRadarView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "CCMRadarView uses the IBDesignable tools to make an easy customizable radar view with animation"
   s.description  = <<-DESC
                    CCMRadarView is a simple to use view that uses the new IBDesignable and IBInspectable features of XCode6 to easily configure the icon in the center, the width of the waves of the radar, as well as the color, the number of waves,etc.
