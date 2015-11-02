@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/cacmartinez/CCMRadarView"
   s.screenshots  = "https://raw.githubusercontent.com/cacmartinez/CCMRadarView/master/Screenshots/iOS%20Simulator%20Screen%20Shot%2028.11.2014%2012.54.37.png"
-  s.license      = { :type => "APACHE 2.O", :file => "LICENSE" }
+  s.license      = 'APACHE 2.O'
   s.author             = { "Carlos Compean" => "cacmartinez@icalialabs.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/cacmartinez/CCMRadarView.git", :tag => s.version.to_s }
