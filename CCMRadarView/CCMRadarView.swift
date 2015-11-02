@@ -16,60 +16,60 @@
 
 import UIKit
 
-@objc @IBDesignable class CCMRadarView: UIView{
+@objc @IBDesignable public class CCMRadarView: UIView{
     
-    var color: UIColor = UIColor.blueColor()
+    //var color: UIColor = UIColor.blueColor()
     private var animating: Bool = false
     
-    @IBInspectable var reversedRadar:Bool = false{
+    @IBInspectable public var reversedRadar:Bool = false{
         didSet{
             initialSetup()
         }
     }
     
-    @IBInspectable var numberOfWaves:Int = 4{
+    @IBInspectable public var numberOfWaves:Int = 4{
         didSet{
             initialSetup()
         }
     }
     
-    @IBInspectable var radarColor: UIColor = UIColor.blueColor() {
+    @IBInspectable public var radarColor: UIColor = UIColor.blueColor() {
         didSet{
             initialSetup()
         }
     }
     
-    @IBInspectable var innerRadius: Double = 50.0 {
+    @IBInspectable public var innerRadius: Double = 50.0 {
         didSet{
             initialSetup()
         }
     }
     
-    @IBInspectable var iconImage: UIImage?{
+    @IBInspectable public var iconImage: UIImage?{
         didSet{
             initialSetup()
         }
     }
     
-    @IBInspectable var iconSize: CGSize = CGSizeMake(20, 20){
+    @IBInspectable public var iconSize: CGSize = CGSizeMake(20, 20){
         didSet{
             initialSetup()
         }
     }
     
-    @IBInspectable var waveWidth: CGFloat = 2 {
+    @IBInspectable public var waveWidth: CGFloat = 2 {
         didSet{
             initialSetup()
         }
     }
     
-    @IBInspectable var maxWaveAlpha: CGFloat = 1 {
+    @IBInspectable public var maxWaveAlpha: CGFloat = 1 {
         didSet{
             initialSetup()
         }
     }
     
-    func startAnimation() {
+    public func startAnimation() {
         animating = true
         if let sublayers = layer.sublayers {
             for (index,sublayer) in (layer.sublayers as [CALayer]!).enumerate() {
@@ -93,7 +93,7 @@ import UIKit
         }
     }
     
-    override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
+    override public func animationDidStop(anim: CAAnimation, finished flag: Bool) {
         
         if flag{
             if let sublayers = layer.sublayers {
@@ -133,26 +133,26 @@ import UIKit
         })
     }
     
-    func stopAnimation() {
+    public func stopAnimation() {
         animating = false
     }
     
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initialSetup()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         initialSetup()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         initialSetup()
     }
     
-    func initialSetup(){
+    private func initialSetup(){
         layer.sublayers = []
         let insetOffsetDelta = (Double(CGRectGetHeight(self.layer.bounds)/2) - innerRadius) / Double(numberOfWaves)
         //let alphaVariance = (maxWaveAlpha - minWaveAlpha) / CGFloat(numberOfWaves)
